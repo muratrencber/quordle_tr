@@ -11,11 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: npm ci
-      - uses: FirebaseExtended/action-hosting-deploy@v0
-        with:
-          repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_QUORDLE_TR_FIREBASE }}'
-          token: ${{secrets.FIREBASE_TOKEN}}
-          channelId: live
-          projectId: quordle-tr-firebase
+      - run: firebase deploy --token ${{secrets.FIREBASE_TOKEN}}
