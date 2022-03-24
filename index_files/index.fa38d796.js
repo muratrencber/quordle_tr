@@ -262,10 +262,8 @@ var bt = me((ge) => {
       practiceStatistics: "Pratik İstatistikleri",
       played: "Oynanan",
       winPercent: "Kazanma %",
-      currentStreak: `Current
-Streak`,
-      maxStreak: `Max
-Streak`,
+      currentStreak: `Mevcut Üst Üste`,
+      maxStreak: `Maksimum Üst Üste`,
       winDistribution: "Kazanma Dağılımı",
       winDistExplain: "(4 kelimenin hepsinin bulmak için toplam tahmin #)",
       win: "Kazanılan",
