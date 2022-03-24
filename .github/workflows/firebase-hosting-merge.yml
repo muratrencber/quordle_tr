@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: /usr/local/bin/npx firebase-tools deploy --token ${{secrets.FIREBASE_TOKEN}}
+      - run: /usr/local/bin/npx firebase-tools deploy --only hosting --project quordle-tr-firebase --json --token ${{secrets.FIREBASE_TOKEN}}
