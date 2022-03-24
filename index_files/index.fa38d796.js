@@ -193,7 +193,7 @@ var bt = me((ge) => {
       keywords:
         "wordle, quordle, dörtle, oyun, bulmaca, kelime, harfler, oyna, online, çevrim içi, tahmin, zeka oyunu, ikile",
       description:
-        "Yeteneklerini Put your skills to the test and solve four Wordles at once! You have 9 guesses to solve all four words. A new Quordle available each day to solve.",
+        "Yeteneklerini sına ve dört tane Wordle'ı aynı anda çöz! Dört kelimenin hepsini çözmek için 9 tahmin hakkın var. Her gün yeni bir Quordle açılacak.",
       webAddress: "http://muratrencber.github.io/quordle_tr/",
       noJs: "Bu programı çalıştırmak için JavaScript'i etkinleştirmeniz gerekiyor.",
       error404: "404",
