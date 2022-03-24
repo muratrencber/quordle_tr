@@ -157,7 +157,7 @@ var bt = me((ge) => {
       minute: 60 * 1e3,
       second: 1e3,
     },
-    fS = new Date("01/24/2022"),
+    fS = new Date("03/24/2022"),
     ae = tS.day,
     le = 1.3,
     Ne = 0.7,
@@ -344,7 +344,7 @@ var bt = me((ge) => {
       practiceQuordleShare: "Pratik Dörtle'si",
       hoursDuration: "%{smart_count} saat içinde |||| %{smart_count} saat içinde",
       minutesDuration:
-        "%{smart_count} dakika içine |||| %{smart_count} dakika içinde",
+        "%{smart_count} dakika içinde |||| %{smart_count} dakika içinde",
       secondsDuration:
         "%{smart_count} saniye içinde |||| %{smart_count} saniye içinde",
       newPractice: "Yeni Pratik Oyunu",
