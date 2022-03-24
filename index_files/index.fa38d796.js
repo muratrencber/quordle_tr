@@ -157,7 +157,7 @@ var bt = me((ge) => {
       minute: 60 * 1e3,
       second: 1e3,
     },
-    fS = new Date("03/24/2022"),
+    fS = new Date("03/23/2022"),
     ae = tS.day,
     le = 1.3,
     Ne = 0.7,
