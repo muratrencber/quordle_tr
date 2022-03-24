@@ -1,0 +1,23 @@
+{
+  "name": "quordle_tr",
+  "version": "1.0.0",
+  "description": "Quordle Turkish port",
+  "main": "index.html",
+  "dependencies": {
+    "firebase-cli": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muratrencber/quordle_tr.git"
+  },
+  "author": "Murat Rencber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muratrencber/quordle_tr/issues"
+  },
+  "homepage": "https://github.com/muratrencber/quordle_tr#readme"
+}
