@@ -279,7 +279,7 @@ var bt = me((ge) => {
       },
       tutorial: "Öğretici",
       title: "Dört tane Dörtle'nin hepsini 9 denemede tahmin et.",
-      p1: "Her tahmin, 5 harfli geçerli bir kelime olmalı. Enter tuşuna basarak gönder. Her tahminden sonra, kutuların rengi tahmininin kelimeye ne kadar yakın olduğunu göstermek üzere değişecek.",
+      p1: "Her tahminin, 5 harfli geçerli bir kelime olmalı. Enter tuşuna basarak gönder. Her tahminden sonra, kutuların rengi tahmininin kelimeye ne kadar yakın olduğunu göstermek üzere değişecek.",
       examples: "Örnekler",
       exampleWord1: "DEMİR",
       exampleWord2: "YULAF",
