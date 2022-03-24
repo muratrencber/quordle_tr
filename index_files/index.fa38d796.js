@@ -194,7 +194,7 @@ var bt = me((ge) => {
         "wordle, quordle, dörtle, oyun, bulmaca, kelime, harfler, oyna, online, çevrim içi, tahmin, zeka oyunu, ikile",
       description:
         "Yeteneklerini sına ve dört tane Wordle'ı aynı anda çöz! Dört kelimenin hepsini çözmek için 9 tahmin hakkın var. Her gün yeni bir Dörtle açılacak.",
-      webAddress: "http://muratrencber.github.io/quordle_tr/",
+      webAddress: "http://dortle.app/",
       noJs: "Bu programı çalıştırmak için JavaScript'i etkinleştirmeniz gerekiyor.",
       error404: "404",
       oops: "Hay aksi!",
@@ -3958,7 +3958,7 @@ enter Z X C V B N M Ö Ç bs`,
           r(
             z,
             N(US, {
-              href: "https://github.com/muratrencber/quordle_tr/",
+              href: "https://dortle.app/",
               get children() {
                 return N(aA, { height: 40 });
               },
