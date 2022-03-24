@@ -302,7 +302,7 @@ var bt = me((ge) => {
       supporters: "Destekçiler",
       patronsThank:
         "Dörtle'yi destekleyen herkese kocaman teşekkürler, ve bağışçılara ekstra teşekkürler!",
-      historyTitle: "History of Quordle",
+      historyTitle: "Dörtle'nin Tarihi",
       history: `Quordle'ı Türkçeye çevirmek istedik, ve bunu yaptık. Yaşasın!`,
       twitter: "Twitter",
       github: "Github",
@@ -3958,7 +3958,7 @@ enter Z X C V B N M Ö Ç bs`,
           r(
             z,
             N(US, {
-              href: "https://github.com/fireph/quordle",
+              href: "https://github.com/muratrencber/quordle_tr/",
               get children() {
                 return N(aA, { height: 40 });
               },
