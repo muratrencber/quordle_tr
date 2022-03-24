@@ -341,7 +341,7 @@ var bt = me((ge) => {
         shareAnswerLinkDesc: "Kelime tanımına bağlantı",
       },
       dailyQuordleShare: "Günlük Dörtle",
-      practiceQuordleShare: "Pratik Dörtle'si",
+      practiceQuordleShare: "Dörtle Pratiği",
       hoursDuration: "%{smart_count} saat içinde |||| %{smart_count} saat içinde",
       minutesDuration:
         "%{smart_count} dakika içinde |||| %{smart_count} dakika içinde",
@@ -1801,7 +1801,7 @@ enter Z X C V B N M Ö Ç bs`,
           }
           const C = yield new Promise((s) => I.toBlob(s));
           if (!C) return;
-          const M = `quordle-${S === "daily" ? "daily" : "practice"}-${
+          const M = `dörtle-${S === "daily" ? "günlük" : "pratik"}-${
               e.seed
             }.png`,
             u = new File([C], M, { type: "image/png" });
