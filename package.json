@@ -4,6 +4,7 @@
   "description": "Quordle Turkish port",
   "main": "index.html",
   "dependencies": {
+    "build": "^0.1.4",
     "firebase-cli": "^1.2.0"
   },
   "devDependencies": {},
