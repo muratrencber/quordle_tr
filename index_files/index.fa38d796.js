@@ -362,12 +362,12 @@ var bt = me((ge) => {
       enterKey: "Enter Tuşu",
       backspaceKey: "Silme Tuşu",
       alphabet: "ABCÇDEFGĞHIİJKLMNOÖPQRSŞTUÜVWXYZ",
-      keyboard: `Q W E R T Y U I O P Ğ Ü
+      keyboard: `E R T Y U I O P Ğ Ü
 A S D F G H J K L Ş İ
-bs Z X C V B N M Ö Ç enter`,
-      keyboardReversed: `Q W E R T Y U I O P Ğ Ü
+bs Z C V B N M Ö Ç enter`,
+      keyboardReversed: `E R T Y U I O P Ğ Ü
 A S D F G H J K L Ş İ
-enter Z X C V B N M Ö Ç bs`,
+enter Z C V B N M Ö Ç bs`,
     };
   var TE = {
     app: OE,
