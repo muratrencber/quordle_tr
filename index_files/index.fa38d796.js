@@ -596,7 +596,7 @@ enter Z C V B N M Ö Ç bs`,
     },
     Re = (S, e, E) => {
       if ("RelativeTimeFormat" in Intl) {
-        const L = new Intl.RelativeTimeFormat(E.locale(), { numeric: "auto" }),
+        const L = new Intl.RelativeTimeFormat("tr", { numeric: "auto" }),
           I = e.valueOf() - S.valueOf();
         for (const T in tS) {
           const n = T;
