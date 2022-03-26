@@ -2319,7 +2319,7 @@ enter Z X C V B N M Ö Ç bs`,
       '<a class="p-3 hover:bg-gray-200 dark:hover:bg-gray-700 transition-all rounded" target="_blank"></a>'
     ),
     pA = c(
-      '<div id="options-dropdown" class="absolute flex flex-col bg-gray-100 dark:bg-gray-800 text-black dark:text-white z-20 right-4 rounded-lg border-2 border-gray-400"><button type="button" class="flex flex-row-reverse items-center px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-700 transition-all my-4" aria-controls="settings-panel"><div class="mr-3 text-black dark:text-white"></div></button><button type="button" class="flex flex-row-reverse items-center px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-700 transition-all mb-4" aria-controls="statistics-panel"><div class="mr-3 text-black dark:text-white"></div></button><button type="button" class="px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-700 transition-all mb-4"><a class="flex flex-row-reverse items-center" href="https://www.buymeacoffee.com/quordle" target="_blank"><div class="mr-3 text-black dark:text-white"></div></a></button><button type="button" class="px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-700 transition-all mb-4"><a class="flex flex-row-reverse items-center" href="https://www.patreon.com/quordle" target="_blank"><div class="mr-3 text-black dark:text-white"></div></a></button><div class="m-4 flex flex-row-reverse justify-center items-center"></div></div>'
+      '<div id="options-dropdown" class="absolute flex flex-col bg-gray-100 dark:bg-gray-800 text-black dark:text-white z-20 right-4 rounded-lg border-2 border-gray-400"><button type="button" class="flex flex-row-reverse items-center px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-700 transition-all my-4" aria-controls="settings-panel"><div class="mr-3 text-black dark:text-white"></div></button><button type="button" class="flex flex-row-reverse items-center px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-700 transition-all mb-4" aria-controls="statistics-panel"><div class="mr-3 text-black dark:text-white"></div></button><button type="button" class="px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-700 transition-all mb-4" style="display:none;"><a class="flex flex-row-reverse items-center" href="https://www.buymeacoffee.com/quordle" target="_blank"><div class="mr-3 text-black dark:text-white"></div></a></button><button type="button" class="px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-700 transition-all mb-4" style="display:none;"><a class="flex flex-row-reverse items-center" href="https://www.patreon.com/quordle" target="_blank"><div class="mr-3 text-black dark:text-white"></div></a></button><div class="m-4 flex flex-row-reverse justify-center items-center" style="display:none;"></div></div>'
     ),
     zA = c(
       '<nav class="bg-slate-300 dark:bg-gray-900 w-screen border-b-2 border-white dark:border-gray-800"><div class="flex items-center max-w-[550px] m-auto px-4 py-2 relative"><span class="mx-3 text-black dark:text-white"></span><div class="flex flex-grow-0 flex-shrink-1 overflow-auto"></div><div class="flex flex-1 justify-end items-center ml-2"><button type="button" class="bg-indigo-500 dark:bg-gray-800 p-1 rounded-full text-white hover:text-gray-200 dark:text-gray-400 dark:hover:text-white transition-colors" aria-controls="tutorial-panel"></button><button type="button" class="bg-indigo-500 dark:bg-gray-800 p-1 rounded-full text-white hover:text-gray-200 dark:text-gray-400 dark:hover:text-white ml-2 transition" aria-controls="options-dropdown"></button></div></div></nav>'
@@ -2428,11 +2428,7 @@ enter Z X C V B N M Ö Ç bs`,
                   M = H.nextSibling,
                   u = M.firstChild,
                   s = M.nextSibling,
-                  U = s.firstChild,
-                  v = U.firstChild,
                   m = s.nextSibling,
-                  J = m.firstChild,
-                  X = J.firstChild,
                   eS = m.nextSibling;
                 return (
                   (H.$$click = () => {
@@ -2462,16 +2458,6 @@ enter Z X C V B N M Ö Ç bs`,
                           : e.t("header.practiceStats");
                     })()
                   ),
-                  (s.$$click = () => {
-                    h(E.vibration), n(!1);
-                  }),
-                  r(U, N(cA, {}), v),
-                  r(v, () => e.t("header.donate")),
-                  (m.$$click = () => {
-                    h(E.vibration), n(!1);
-                  }),
-                  r(J, N(dA, {}), X),
-                  r(X, () => e.t("header.patreon")),
                   r(
                     eS,
                     (() => {
@@ -2576,9 +2562,7 @@ enter Z X C V B N M Ö Ç bs`,
                             S.mode === "daily"
                               ? e.t("stats.dailyStatistics")
                               : e.t("stats.practiceStatistics"),
-                        }),
-                        LS = e.t("header.donate"),
-                        f = e.t("header.patreon");
+                        })
                       return (
                         sS !== W._v$3 &&
                           d.style.setProperty("top", (W._v$3 = sS)),
@@ -2586,8 +2570,6 @@ enter Z X C V B N M Ö Ç bs`,
                         oS !== W._v$5 && D(H, "aria-label", (W._v$5 = oS)),
                         aS !== W._v$6 && D(M, "aria-expanded", (W._v$6 = aS)),
                         z !== W._v$7 && D(M, "aria-label", (W._v$7 = z)),
-                        LS !== W._v$8 && D(s, "aria-label", (W._v$8 = LS)),
-                        f !== W._v$9 && D(m, "aria-label", (W._v$9 = f)),
                         W
                       );
                     },
@@ -3635,10 +3617,10 @@ enter Z X C V B N M Ö Ç bs`,
   NS(["click"]);
   const Dt = c('<div class="flex w-[100%]" role="row"></div>'),
     Ut = c(
-      '<a class="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors" target="_blank"></a>'
+      '<a class="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors" style="display:none;" target="_blank"></a>'
     ),
     Ct = c(
-      '<div id="tutorial-panel" class="w-full h-full overflow-auto"><div class="max-w-[550px] w-full m-auto flex flex-row-reverse pr-4 pt-2"><button type="button" class="bg-white dark:bg-gray-800 p-1 rounded-full text-gray-900 hover:text-black dark:text-gray-400 dark:hover:text-white"></button></div><div class="max-w-[550px] m-auto w-full px-6"><h1 class="text-3xl mt-2 mb-1"></h1><div class="text-base"></div><h2 class="text-3xl mt-4 mb-2"></h2><div class="w-[50%] mb-2 pr-1" role="table"></div><div class="text-base mb-6"></div><div class="w-[50%] mb-2 pr-1" role="table"></div><div class="text-base mb-6"></div><div class="w-[50%] mb-2 pr-1" role="table"></div><div class="text-base mb-6"></div><div class="flex w-[100%] mb-2"><div class="w-[50%] mr-1" role="table"></div><div class="w-[50%] ml-1" role="table"></div></div><div class="flex w-[100%] my-2"><div class="w-[50%] mr-1" role="table"></div><div class="w-[50%] ml-1" role="table"></div></div><div class="text-base"></div><ol class="text-base list-decimal ml-8 mb-6"><li></li><li></li><li></li><li></li></ol><div class="text-base mb-6"></div><div class="text-base mb-8"></div><div class="text-sm mb-2 text-center"></div><div class="flex flex-row items-center justify-between mb-8"></div><h1 class="text-3xl text-center">&#128150; <!> &#128150;</h1><div class="text-base mb-4 text-center"></div><div class="text-sm text-center mb-8"></div><h1 class="text-3xl mb-4 text-center"></h1><div class="text-base mb-6 whitespace-pre-line"></div></div></div>'
+      '<div id="tutorial-panel" class="w-full h-full overflow-auto"><div class="max-w-[550px] w-full m-auto flex flex-row-reverse pr-4 pt-2"><button type="button" class="bg-white dark:bg-gray-800 p-1 rounded-full text-gray-900 hover:text-black dark:text-gray-400 dark:hover:text-white"></button></div><div class="max-w-[550px] m-auto w-full px-6"><h1 class="text-3xl mt-2 mb-1"></h1><div class="text-base"></div><h2 class="text-3xl mt-4 mb-2"></h2><div class="w-[50%] mb-2 pr-1" role="table"></div><div class="text-base mb-6"></div><div class="w-[50%] mb-2 pr-1" role="table"></div><div class="text-base mb-6"></div><div class="w-[50%] mb-2 pr-1" role="table"></div><div class="text-base mb-6"></div><div class="flex w-[100%] mb-2"><div class="w-[50%] mr-1" role="table"></div><div class="w-[50%] ml-1" role="table"></div></div><div class="flex w-[100%] my-2"><div class="w-[50%] mr-1" role="table"></div><div class="w-[50%] ml-1" role="table"></div></div><div class="text-base"></div><ol class="text-base list-decimal ml-8 mb-6"><li></li><li></li><li></li><li></li></ol><div class="text-base mb-6"></div><div class="text-base mb-8"></div><div class="text-sm mb-2 text-center"></div><div class="flex flex-row items-center justify-between mb-8"></div><h1 class="text-3xl text-center" style="display:none;">&#128150; <!> &#128150;</h1><div class="text-base mb-4 text-center" style="display:none;"></div><div class="text-sm text-center mb-8" style="display:none;"></div><h1 class="text-3xl mb-4 text-center" style="display:none;"></h1><div class="text-base mb-6 whitespace-pre-line" style="display:none;"></div></div></div>'
     ),
     ct = c(
       '<div class="flex item-center justify-center mb-6"><a title="Crowdin" target="_blank" href="https://crowdin.com/project/quordle" class="inline-flex"><img src="https://badges.crowdin.net/quordle/localized.svg"></a></div>'
